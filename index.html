@@ -1,0 +1,157 @@
+<DOCTYPE html>
+    <html>
+        <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="Style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet"> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/fontawesome.min.css">
+            
+        </head>
+        <body>
+            <div class="header">
+                <div class="container">
+                    <div class="navbar">
+                        <div class="logo">
+                            <img src="1620213571815.jpg" width="125px">
+                        </div>
+                        <nav>
+                            <ul id="Menuitems">
+                                <li><a href="C:/Users/Miryala/Desktop/html/Index.html">Home</a></li>
+                                <li><a href="C:/Users/Miryala/Desktop/html/Products.html">Products</a></li>
+                                <li><a href="C:/Users/Miryala/Desktop/html/AboutUs.html">About us</a></li>    
+                                <li><a href="C:/Users/Miryala/Desktop/html/loginpage.html">Account</a></li>  
+                            </ul>
+                        </nav>
+                        <img src="menu.png" class="menu" onclick="menutoggle()"  >
+                    </div>
+                    <div class="row">
+                        <div class="content-2">
+                            <h1>Sri Collections..<br>We Believe in Quality..!</h1>
+                            <p>Welcome to Sri Collections.<br>We provide you all types of clothing..</p><br>
+                            <a href="C:/Users/Miryala/Desktop/html/Products.html" class="button">Explore Now</a>
+                        </div>
+                        <div class="content-2">
+                            <img src="1620285007456.jpg">
+                         </div>
+                    </div>
+              </div>
+            </div>
+    <div class="categories">
+        <h1>Our categories</h1>
+        <div class="row">
+        <div class="product">
+            <img src="1620317640648.jpg" width="300"height="350">
+            <p><strong>Women</strong></p>
+        </div>
+        <div class="product">
+            <img src="1620317640625.jpg" width="300"height="350">
+            <p><strong>Men</strong></p>
+        </div>
+        <div class="product">
+            <img src="1620406700868.jpg" width="300"height="350">
+            <p><strong>Kids Wear</strong></p>
+        </div>
+        <div class="product">
+            <img src="IMG-20210504-WA0123.jpg" width="300"height="350">
+            <p><strong>Jewellerey</strong></p>
+        </div>
+      
+        <div class="product">
+            <img src="IMG-20210506-WA0101.jpg" width="300"height="350">
+            <p><strong>Beauty</strong></p>
+        </div>
+     </div>
+    </div>
+    <div class="testimonial">
+        <h1>Testimonials</h1>
+        <div class="small-container">
+            <div class="row">
+            <div class="user">
+                <p> Iam really very happy <br> to shop in Sri Collections<br>Satisfied with your products</p>
+                <img src="user-1.png">
+               <p><h4>Sona Joe</h4></p>
+            </div>
+            <div class="user">
+                <p>I just wanted to thank <br>you for the impeccable service .<br> I always look forward to <br>shopping at Sri Collections</p>
+                <img src="user-2.png">
+                <p><h4>Sourish Ghosh</h4></p>
+            </div>
+            <div class="user">
+                <p>Love shopping with<br> Sri Collections.<br>Prompt delievery<br>All products are value for worth..!!</p>
+                <img src="user-3.png">
+                <p><h4>Priya Varma</h4></p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="break"><hr></div>
+    <div class="partners">
+        <h1>Our Partners</h1><br>
+        <div class="abc">  
+         <div> <img src="1620465554160.jpg"  width="140px">
+           <img src="1620465554214.jpg" width="140px">
+           <img src="1620465554229.jpg" width="140px">
+        </div>
+        <div> 
+          <img src="1620465554173.jpg" width="140px">
+          <img src="1620465554199.jpg" width="140px">
+          <img src="1620465554185.jpg" width="140px">
+          </div>    
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download Our App from Android And ios mobile phone</p>
+                    <div class="logo">
+                        <img src="app-store.png" width="140px">
+                        <img src="play-store.png" width="140px">                
+                      </div>
+                </div>
+                <div class="col-2">
+                    <p>Our purpose is to make the Pleasure and Benefits Accessible to Many</p>
+                </div>
+                <div class="col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Branded Items</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Follow Us</h3>
+                   <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                   </ul>
+                </div>
+            </div>
+            <hr>
+            <p id="cp">Copyright 2021-Sri Collections</p>
+        </div>
+    </div>
+    <script>
+        var Menuitems = document.getElementById("Menuitems");
+        Menuitems.style.maxHeight="0px";
+        function menutoggle()
+        {
+            if(Menuitems.style.maxHeight=="0px")
+            {
+                Menuitems.style.maxHeight="200px";
+
+            }
+            else{
+                Menuitems.style.maxHeight="0px";
+            }
+        }
+    </script>
+        </body>
+    </html>
